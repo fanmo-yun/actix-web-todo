@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+
+input {
+    outline:none;
+    vertical-align:middle;
+    border: 0px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+
+.box1 {
+    width: auto;
+    height: 45px;
+    background-color: #000;
+}
+
+.box1 .center-box {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+    height: 45px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.box1 a {
+    float: left;
+    font-size: 20px;
+    line-height: 45px;
+    margin-left: 30px;
+    color: #ccc;
+}
+
+.box2 {
+    box-sizing: border-box;
+    box-shadow: 10px 15px 15px rgb(156, 156, 156);
+    margin: 20px auto;
+    background-color: #ccc;
+    width: 400px;
+    height: 200px;
+}
+
+.box2 h1 {
+    text-align: center;
+}
+
+.box2 .userbox {
+    margin: 0 auto;
+    line-height: 35px;
+    width: 302px;
+    height: 35px;
+}
+
+.box2 .userbox input {
+    box-sizing: border-box;
+    width: 202px;
+    font-size: 20px;
+    padding-left: 10px;
+    height: 30px;
+}
+
+.box2 .pwbox {
+    margin: 0 auto;
+    line-height: 35px;
+    width: 302px;
+    height: 35px;
+}
+
+.box2 .pwbox input {
+    box-sizing: border-box;
+    width: 201px;
+    font-size: 20px;
+    padding-left: 10px;
+    height: 30px;
+}
+
+.box2 button {
+    margin-top: 10px;
+    margin-left: 170px;
+    font-size: 20px;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 50px;
+    width: 60px;
+    height: 50px;
+}
+
+.box2 button:hover {
+    background-color: orange;
+    cursor: pointer;
+}

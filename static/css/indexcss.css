@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    width: auto;
+    height: 45px;
+    background-color: #000;
+}
+
+.box1 h2 {
+    color: #fff;
+    line-height: 45px;
+    height: 45px;
+    float: left;
+    margin-left: 30px;
+}
+
+.box1 h2 a {
+    height: 45px;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+.box1 .right {
+    height: 45px;
+    float: right;
+    margin-right: 30px;
+    line-height: 45px;
+}
+
+.box1 .right a:first-child {
+    height: 45px;
+    font-size: 20px;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.box1 .right a:last-child {
+    height: 45px;
+    font-size: 20px;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+.box2 {
+    background-color: rgb(120, 128, 128);
+    position: relative;
+    height: 800px;
+    width: auto;
+}
+
+.box2 .context-box {
+    position: absolute;
+    border-radius: 5%;
+    box-shadow: 10px 15px 15px #ccc;
+    background-color: #FFF5EE;
+    left: 36%;
+    top: 38%;
+    margin: -100px 0 0 -100px;
+    width: 700px;
+    height: 400px;
+}
+
+.box2 .context-box .notes {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.box2 .context-box .notes h3 {
+    margin-top: 180px;
+    margin-bottom: 5px;
+    color: purple;
+    font-style: italic;
+    border-bottom: 3px solid purple;
+    font-size: 30px;
+    text-align: center;
+}
+
+.box2 .context-box .notes img {
+    float: right;
+    border-radius: 5%;
+}
+
+.box3 {
+    height: 116px;
+    width: auto;
+    background-color: #000;
+}
+
+.box3 .center-box {
+    margin: 0 auto;
+    width: 1000px;
+    height: 116px;
+}
+
+.box3 .center-box .about1 {
+    width: 500px;
+    height: 116px;
+    color: #333;
+    line-height: 116px;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+}
+
+.box3 .center-box .about2 {
+    width: 500px;
+    height: 116px;
+    line-height: 116px;
+    font-size: 20px;
+    float: right;
+    text-align: center;
+}
+
+.box3 .center-box .about2 a {
+    text-decoration: none;
+    color: #333;
+    outline: none;
+}

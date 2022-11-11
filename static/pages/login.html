@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="static/css/login.css" type="text/css" />
+    <link rel="Shortcut Icon" href="static/image/icon.ico" type="image/x-icon" />
+</head>
+<body>
+    <div class="box1">
+        <a href="/">&#8678; back</a>
+        <div class="center-box">{{todo}}</div>
+    </div>
+    <div class="box2">
+        <h1>login</h1>
+        <form action="/login" method="post">
+            <div style="text-align: center;color: red;">{{status}}</div>
+            <div class="userbox">
+                USERNAME:<input type="text" name="username" required="required" />
+            </div>
+            <div class="pwbox">
+                PASSWORD:<input type="password" name="passwd" required="required" />
+            </div>
+            <button type="submit">登录</button>
+        </form>
+    </div>
+</body>
+</html>

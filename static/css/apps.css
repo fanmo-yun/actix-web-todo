@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input{  
+	background:none;  
+	outline:none;  
+	border:0px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.clearfix::before{
+    content: '';
+    display: table;
+}
+
+.box1 {
+    width: auto;
+    height: 45px;
+    background-color: #000;
+}
+
+.box1 h2 {
+    color: #fff;
+    line-height: 45px;
+    height: 45px;
+    float: left;
+    margin-left: 30px;
+}
+
+.box1 h2 a {
+    height: 45px;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+
+.box1 .right {
+    height: 45px;
+    float: right;
+    margin-right: 30px;
+    line-height: 45px;
+}
+
+.box1 .right a {
+    height: 45px;
+    font-size: 20px;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.box2 {
+    width: auto;
+    height: 916px;
+    position: relative;
+    background-color: #333;
+}
+
+.box2 .userbox {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    width: 1600px;
+    height: 916px;
+}
+
+.box2 .userbox .user {
+    width: 180px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    box-shadow: 5px 15px 15px #555;
+    top: 20px;
+    left: 20px;
+    background-color: #777;
+}
+
+.box2 .userbox .inputbox {
+    box-sizing: border-box;
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+}
+
+.box2 .userbox .inputbox input {
+    box-sizing: border-box;
+    padding-left: 15px;
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    background-color: #444;
+    font-size: 15px;
+}
+
+.box2 .userbox .inputbox button {
+    box-sizing: border-box;
+    background-color: pink;
+    margin-left: 50%;
+    width: 50px;
+    height: 40px;
+}
+
+.box2 .userbox .inputbox button:hover {
+    background-color: #777;
+    cursor: pointer;
+}
+
+.box2 .userbox .todo-list {
+    width: 1600px;
+    height: 716px;
+    background-color: #222;
+}
+
+.box2 .userbox .todo-list div {
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    background-color: #444;
+}
+
+.box2 .userbox .todo-list div button {
+    width: 40px;
+    height: 30px;
+    margin-top: 12px;
+    line-height: 30px;
+    box-sizing: border-box;
+    background-color: #999;
+}

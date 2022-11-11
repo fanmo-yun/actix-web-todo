@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apps</title>
+    <link rel="stylesheet" href="static/css/apps.css">
+    <link rel="Shortcut Icon" href="static/image/icon.ico" type="image/x-icon" />
+</head>
+<body>
+    <div class="box1">
+        <h2><a href="/">Home</a></h2>
+        <div class="right">
+            <a href="/logout">登出</a>
+        </div>
+    </div>
+    <div class="box2">
+        <div class="userbox clearfix">
+            <div class="user">{{username}}</div>
+            <div class="inputbox">
+                <form action="/api/app" method="post">
+                <!-- <form action="#"> -->
+                    <input type="text" id="todo_title" name="todo_title" placeholder="输入todo内容" required="required">
+                    <input type="text" id="date_time" name="date_time" placeholder="输入时间" required="required">
+                    <button type="submit">添加</button>
+                </form>
+            </div>
+            <div class="todo-list" id="lists">
+                {% if have_todo %}
+                    {% for todo in todes -%}
+                        <div>
+                            <p>{{todo.todo_title}}</p>
+                            <p>{{todo.date_time}}</p>
+                            <button onclick="delete_todo('{{todo.todo_title}}', '{{todo.date_time}}')">删除</button>
+                        </div>
+                    {%- endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="static/javascript/addtodo.js"></script>
+</body>
+</html>

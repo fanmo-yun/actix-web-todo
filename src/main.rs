@@ -35,7 +35,6 @@ async fn main() -> std::io::Result<()> {
             .service(get_scope())
     })
     .bind(("127.0.0.1",8000))?
-    // .bind(("192.168.50.103",8081))?
     .run()
     .await
 }
